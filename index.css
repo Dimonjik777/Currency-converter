@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #964FED;
+}
+
+h1,h2, div, select,option, input{
+  font-family: "Rubik", sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 24px;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container{
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 240px;
+  border-radius: 20px;
+}
+
+.container__content{
+  width: 340px;
+  margin: 0 auto;
+}
+
+.amout__block {
+  margin-bottom: 50px;
+}
+
+.amout__block input{
+  border: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.currency{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+
+select{
+  border: none;
+  background-color: #C596FF;
+  font-size: 20px;
+  width: 150px;
+  height: 35px;
+  color: white;
+  appearance: none;
+  padding-left: 10px;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+select option{
+  background-color: #fff;
+  color: black;
+}
+
+button{
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: #C596FF;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px;
+  transition: .2s ease all;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+button:hover{
+  background-color: #DBBDFF;
+}
+
+.result{
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #E8D4FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
